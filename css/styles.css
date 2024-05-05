@@ -1,0 +1,45 @@
+/*Estilos generales*/
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+
+}
+/*Estilos Header*/
+a{
+    color: blue;
+}
+
+/*Estilos main*/
+
+/*Main Inicio*/
+.MaryPink{
+    background-color: moccasin;
+    width: 160px;
+    height: 90px;
+    margin: 20;
+    padding: 20;
+    border: 4px double pink;
+    border-radius: 5px;
+}
+
+
+/*Main Nosotros*/
+@font-face {
+    font-family: "Merriweather";
+    src: url("./fonts/Merriweather-Black.ttf");
+}
+p {
+    font-family: "Merriweather", 
+    cursive;
+}
+/*Estilos footer*/
+#arriba{
+    background-color: moccasin;
+}
+.card{
+    background-color: moccasin;
+}
+
+
+
