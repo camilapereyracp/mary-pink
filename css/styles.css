@@ -7,21 +7,27 @@
 }
 /*Estilos Header*/
 a{
-    color: blue;
+    color: white;
+    border: 5px solid transparent;
 }
 
 /*Estilos main*/
 
 /*Main Inicio*/
-.MaryPink{
-    background-color: moccasin;
-    width: 160px;
-    height: 90px;
-    margin: 20;
+.maryPink{
+    font-family: "Merriweather", 
+    regular;
+    color: white;
+    background-color: rgb(241, 7, 97);
+    width: 180px;
+    height: 60px;
+    margin: 20; 
     padding: 20;
     border: 4px double pink;
     border-radius: 5px;
+    text-align: center;
 }
+
 
 
 /*Main Nosotros*/
@@ -31,15 +37,60 @@ a{
 }
 p {
     font-family: "Merriweather", 
-    cursive;
+    black-regular;
+    color: white;
+    background-color: rgb(241, 7, 97);
+    
 }
+
 /*Estilos footer*/
 #arriba{
-    background-color: moccasin;
+    background-color: rgb(209, 32, 100);
 }
 .card{
-    background-color: moccasin;
+    background-color: rgb(241, 7, 97);
+}
+/*Menú*/
+header nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
 }
 
-
+/*Contacto*/
+.form-div{
+    margin-top: 20px;
+    position: relative;
+}
+.form-div input{
+    height: 50px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 40px;
+    outline: none;
+}
+.form-div label{
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 7px;
+    font-size: -5px;
+    color: grey;
+    transition: 0.3s;
+}
+.form-div input:focus{
+    border-color: magenta;
+}
+.form-div input:focus ~ label{
+    margin-left: 15px;
+    margin-top: 5x;
+    font-size: 14px;
+    color: magenta;
+}
+.menu{
+    flex-grow: 0;
+}
 
